@@ -17,52 +17,8 @@ body {
   max-width: 500px;
 }
 
-
-
-
-
-.result {
-  color: white;
-  font-size: 26px;
-  text-align: center;
-  display: block;
-}
-
 .form__RadioInput {
   display: block;
   width: 200px;
   margin: 0 auto;
-}
-
-.formFull {
-  margin: 0 auto;
-  max-width: 500px;
-  background-color: rgba(44, 39, 29, 0.815);
-  padding: 7px;
-}
-
-.formFull__fieldset {
-  border-color: burlywood;
-  border-radius: 8px;
-}
-
-.formFull__input {
-  display: block;
-  text-align: center;
-  line-height: 40px;
-}
-
-.formFull__section {
-  border: 1px solid whitesmoke;
-  border-radius: 8px;
-  padding: 10px 25px;
-  color: rgb(228, 210, 210);
-  font-size: 23px;
-  font-weight: bold;
-  max-width: 300px;
-  margin: 0 auto;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(27, 26, 26, 0.548);
 }
