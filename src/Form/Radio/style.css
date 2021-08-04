@@ -1,0 +1,8 @@
+.radio__item {
+    color: white;
+    font-size: 23px;
+    display: inline-block;
+    padding: 15px;
+    font-style: oblique;
+    margin-left: 20px;
+  }
