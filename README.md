@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Simple Currency Converter by React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It lets you to change currency from polish zloty (PLN) to:
+
+* Euro (EUR)
+* United States Dollar (USD)
+* Swiss Franc (CHF)
+
+![Project screen](public\screen.png)
+
+## Used technologies
+
+* HTML
+* CSS
+* javascript
+* BEM convention
+* Immutability
+* React
+* Create-React-App
+* Webpack
+## Demo
+
+[LINK](https://mikej44.github.io/currency_converter_react/)
 
 ## Available Scripts
 
