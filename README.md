@@ -7,7 +7,7 @@ It lets you to change currency from polish zloty (PLN) to:
 * United States Dollar (USD)
 * Swiss Franc (CHF)
 
-![Project screen](public\screen.png)
+![Project screen](https://github.com/mikej44/currency_converter_react/blob/master/src/screen.png)
 
 ## Used technologies
 
