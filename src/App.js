@@ -16,12 +16,17 @@ function App() {
     });
   };
 
+  const resetResult = () => {
+    setResult();
+  };
+
   return (
     <div className="converter">
-<Form 
-result={result}
-calculateResult={calculateResult}
-/>
+      <Form
+        result={result}
+        calculateResult={calculateResult}
+        resetResult={resetResult}
+      />
     </div>
   );
 }

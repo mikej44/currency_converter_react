@@ -3,13 +3,18 @@ import Result from "./Result";
 import Radio from "./Radio";
 import "./style.css";
 
-const Form = ({ calculateResult, result }) => {
+const Form = ({ calculateResult, result, resetResult }) => {
   const [currency, setCurrency] = useState();
   const [amount, setAmount] = useState("");
 
   const onSubmit = (event) => {
     event.preventDefault();
     calculateResult(currency, amount);
+  };
+
+  const resetInput = () => {
+    setAmount();
+    resetResult();
   };
 
   return (
@@ -35,7 +40,7 @@ const Form = ({ calculateResult, result }) => {
         <Result result={result} />
 
         <button className="form__button">Przelicz!</button>
-        <button type="reset" className="form__button">Wyczyść</button>
+        <button type="reset" className="form__button" onClick={resetInput}>Wyczyść</button>
 
       </fieldset>
     </form>
